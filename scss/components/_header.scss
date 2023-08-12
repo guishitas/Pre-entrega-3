@@ -16,14 +16,14 @@
         color: initial;
     }
     50% {
-        color: blue;
+        color: wheat;
     }
     100% {
-        color: green;
+        color: black;
     }
 }
 .header-h1 {
-    animation: colorChange 3s infinite;
+    animation: colorChange 4s infinite;
 }
 .header-h1 {
     text-align: center;

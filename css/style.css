@@ -18,12 +18,12 @@
   0% {
     color: initial; }
   50% {
-    color: blue; }
+    color: wheat; }
   100% {
-    color: green; } }
+    color: black; } }
 
 .header-h1 {
-  animation: colorChange 3s infinite; }
+  animation: colorChange 4s infinite; }
 
 .header-h1 {
   text-align: center;
@@ -135,15 +135,17 @@ body header nav div h2 {
   width: 18.75rem;
   height: 18.75rem; }
   .clases img {
-    width: 50px;
-    background-color: rgba(233, 44, 202, 0.404);
-    border-radius: 40%;
-    margin: 5px; }
+    width: 55px;
+    margin: 6px;
+    background-color: rgba(246, 248, 119, 0.363);
+    border-style: double;
+    border-radius: 90%; }
   .clases article {
     color: white;
-    font-size: 20px; }
+    font-size: 22px; }
   .clases a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: white; }
 
 .section-clases {
   display: grid;
