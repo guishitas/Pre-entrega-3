@@ -329,7 +329,7 @@ footer {
     margin-top: auto; }
   .card, .card2 {
     width: 600px;
-    height: 38.25rem; }
+    height: fit-content; }
     .card ul, .card2 ul {
       flex-direction: column;
       align-items: center; } }
@@ -392,6 +392,7 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 21.75rem;
+    height: fit-content;
     text-align: center; }
   .section-clases {
     grid-template-columns: auto; }
@@ -423,7 +424,7 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 19.75rem;
-    height: 900px;
+    height: fit-content;
     text-align: center; } }
 
 @media (max-width: 320px) {
