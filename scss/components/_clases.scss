@@ -1,14 +1,15 @@
 .clases h2 {
     & {
-        background-color: rgb(44 233 182 / 34%);
+        background-color: rgba(45, 235, 184, 0.37%,);
         padding: 50px;
         border-radius: 35px;
+    }
 
-        &:hover {
-            transform: scale(1.4);
-        }
+    &:hover {
+        transform: scale(1.4);
     }
 }
+
 
 .clases {
     width: 18.75rem;
