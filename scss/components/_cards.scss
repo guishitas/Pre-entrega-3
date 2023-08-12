@@ -4,28 +4,45 @@
 
 .card {
     margin: 30px auto;
-    width: 45rem;
+    width: 50%;
     height: 31.25rem;
-    background-color: rgba(239, 241, 80, 0.349);
+    background-color: rgba(166, 108, 243, 0.65);
 
 
 }
 
 .card2 {
-    margin: 30px auto;
+    @extend .card;
     width: 45rem;
-    height: 31.25rem;
     background-color: rgba(247, 191, 213, 0.349);
+    height: fit-content;
+    h2 {
+        color: white;
+    }
+    p {
+        color: white;
+    }
+
+}
+.h2 {
+    text-decoration: none;
+}
+.card ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .card ul li {
-    text-align: center;
-    list-style: none;
+    margin: 2px;
+    padding: 2px;
+    width: 60%;
+    color: white;
+
 }
 
 .card p {
-    width: 21.875rem;
-    text-align: center;
-    margin: 0 auto;
-    padding: 7rem 0rem;
+    padding: .1875rem;
+    color: white;
 }

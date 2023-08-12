@@ -9,38 +9,9 @@
     }
 
     .RollinG-h1 {
-        font-size: 100px;
+        font-size: 6rem;
     }
 
-    /*.card {
-        width: 25rem;
-        height: fit-content;
-        background-color: rgb(239 241 80 / 25%);
-    }*/
-    .card {
-        margin: 30px auto;
-        width: 45rem;
-        height: 31.25rem;
-        background-color: rgba(239, 241, 80, 0.349);
-    }
-
-    .card p {
-        width: auto;
-        font-size: 22px;
-        color: #3c0465;
-        padding-top: 30px;
-        text-align: center;
-        margin: 0 auto;
-        padding: 2rem 0rem;
-
-    }
-
-    .card2 {
-        width: 21.875rem;
-        height: fit-content;
-        text-align: center;
-        font-size: 20px;
-    }
 
     .header-h1 {
         margin-bottom: 65px;
@@ -58,12 +29,20 @@
 }
 
 @media (max-width: 375px){
-.card {
-    width: 320px;
-    height: fit-content;
-}
 
 .section-clases {
     grid-template-columns: auto;
+}
+.card {
+    height: fit-content;
+}
+.card2 {
+    .card2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 15.75rem;
+        text-align: center;
+    }
 }
 }
