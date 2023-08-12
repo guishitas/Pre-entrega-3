@@ -311,14 +311,22 @@ footer {
     text-align: center;
     margin-top: auto; }
   .card, .card2 {
-    height: 36.25rem; }
+    width: 600px;
+    height: 45.25rem; }
     .card ul, .card2 ul {
       flex-direction: column;
       align-items: center; } }
 
 @media (max-width: 630px) {
   .section-clases {
-    grid-template-columns: repeat(1, 300px); } }
+    grid-template-columns: repeat(1, 300px); }
+  .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 29.75rem;
+    height: 900px;
+    text-align: center; } }
 
 @media (max-width: 596px) {
   .introduccion {
@@ -326,7 +334,14 @@ footer {
   .RollinG-h1 {
     font-size: 6rem; }
   .card, .card2 {
-    height: 53.25rem; } }
+    height: 53.25rem; }
+  .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25.75rem;
+    height: 900px;
+    text-align: center; } }
 
 @media (max-width: 425px) {
   .navbar li {
@@ -339,6 +354,12 @@ footer {
     font-size: 6rem; }
   .header-h1 {
     margin-bottom: 65px; }
+  .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 21.75rem;
+    text-align: center; }
   .section-clases {
     grid-template-columns: auto; }
   .class-img {
@@ -349,13 +370,40 @@ footer {
 @media (max-width: 375px) {
   .section-clases {
     grid-template-columns: auto; }
+  /*.card {
+        height: fit-content;
+    }*/
   .card, .card2 {
-    height: fit-content; }
-  .card2 .card2 {
+    width: 6.25rem;
+    height: 40.25rem; }
+    .card ul, .card2 ul {
+      flex-direction: column;
+      align-items: center; }
+  .card2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 15.75rem;
+    text-align: center; } }
+
+@media (max-width: 375px) {
+  .section-clases {
+    grid-template-columns: auto; }
+  /*.card {
+        height: fit-content;
+    }*/
+  .card, .card2 {
+    width: 6.25rem;
+    height: 40.25rem; }
+    .card ul, .card2 ul {
+      flex-direction: column;
+      align-items: center; }
+  .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 19.75rem;
+    height: 900px;
     text-align: center; } }
 
 @media (max-width: 320px) {

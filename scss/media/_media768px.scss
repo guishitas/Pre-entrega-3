@@ -4,16 +4,18 @@
         gap: 2rem;
 
     }
+
     .RollinG-h1 {
         text-align: center;
         margin-top: 1rem;
-        margin-left: 0px; 
+        margin-left: 0px;
         font-size: 10.375rem;
         font-weight: bold;
         color: #90a066;
         text-shadow: 1.875rem 1.875rem 1.875rem cornflowerblue;
     }
-    .header-h1{
+
+    .header-h1 {
         margin-bottom: 65px;
     }
 
@@ -24,14 +26,16 @@
         padding: 2.8125rem 0rem;
         height: fit-content;
     }
+
     .section-clases {
         display: grid;
-        grid-template-columns: repeat(2,300px);
+        grid-template-columns: repeat(2, 300px);
         grid-auto-rows: auto;
         justify-content: center;
         gap: 20px;
         justify-items: center;
     }
+
     .footer {
         background-color: rgba(0, 0, 0, 0.445);
         height: 6.25rem;
@@ -39,11 +43,14 @@
         text-align: center;
         margin-top: auto;
     }
-.card {
-    height: 36.25rem;
-    ul {
-        flex-direction: column;
-        align-items: center;
+
+    .card {
+        width: 600px;
+        height: 45.25rem;
+
+        ul {
+            flex-direction: column;
+            align-items: center;
+        }
     }
-}
 }

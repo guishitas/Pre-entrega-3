@@ -16,6 +16,13 @@
     .header-h1 {
         margin-bottom: 65px;
     }
+    .card2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 21.75rem;
+        text-align: center;
+    }
 
     .section-clases {
         grid-template-columns: auto;
@@ -28,15 +35,23 @@
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 375px) {
 
-.section-clases {
-    grid-template-columns: auto;
-}
-.card {
-    height: fit-content;
-}
-.card2 {
+    .section-clases {
+        grid-template-columns: auto;
+    }
+
+    /*.card {
+        height: fit-content;
+    }*/
+    .card {
+        width: 6.25rem;
+        height: 40.25rem;
+        ul {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
     .card2 {
         display: flex;
         flex-direction: column;
@@ -44,5 +59,4 @@
         width: 15.75rem;
         text-align: center;
     }
-}
 }

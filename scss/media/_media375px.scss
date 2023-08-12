@@ -1,0 +1,28 @@
+@media (max-width: 375px) {
+
+    .section-clases {
+        grid-template-columns: auto;
+    }
+
+    /*.card {
+        height: fit-content;
+    }*/
+    .card {
+        width: 6.25rem;
+        height: 40.25rem;
+
+        ul {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .card2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 19.75rem;
+        height: 900px;
+        text-align: center;
+    }
+}
