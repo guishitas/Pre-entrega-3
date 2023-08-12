@@ -16,6 +16,21 @@
     .header-h1 {
         margin-bottom: 65px;
     }
+
+    .card {
+        width: 21.25rem;
+        height: 42.25rem;
+    }
+
+    .card p {
+        padding: 0.1875rem;
+        color: black;
+        font-size: 22px;
+        text-align: center;
+        margin: 41px auto;
+
+    }
+
     .card2 {
         display: flex;
         flex-direction: column;
@@ -32,31 +47,5 @@
         display: flex;
         flex-direction: row;
         margin-left: 1.25rem;
-    }
-}
-
-@media (max-width: 375px) {
-
-    .section-clases {
-        grid-template-columns: auto;
-    }
-
-    /*.card {
-        height: fit-content;
-    }*/
-    .card {
-        width: 6.25rem;
-        height: 40.25rem;
-        ul {
-            flex-direction: column;
-            align-items: center;
-        }
-    }
-    .card2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 15.75rem;
-        text-align: center;
     }
 }

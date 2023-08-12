@@ -240,6 +240,11 @@ footer {
 @media (max-width: 1024px) {
   .header-h1 {
     margin-bottom: 65px; }
+  .card, .card2 {
+    margin: 30px auto;
+    width: 50%;
+    height: 35.25rem;
+    background-color: rgba(166, 108, 243, 0.65); }
   .card2 {
     text-align: center;
     padding: 3.125rem 0rem; }
@@ -249,6 +254,12 @@ footer {
     text-align: center;
     align-items: center;
     height: fit-content; }
+  .card p, .card2 p {
+    padding: 0.1875rem;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin: 43px auto; }
   .productos {
     display: flex;
     flex-direction: row;
@@ -291,6 +302,12 @@ footer {
     text-shadow: 1.875rem 1.875rem 1.875rem cornflowerblue; }
   .header-h1 {
     margin-bottom: 65px; }
+  .card p, .card2 p {
+    padding: 0.1875rem;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin: 43px auto; }
   .card2 {
     display: flex;
     flex-direction: column;
@@ -312,7 +329,7 @@ footer {
     margin-top: auto; }
   .card, .card2 {
     width: 600px;
-    height: 45.25rem; }
+    height: 38.25rem; }
     .card ul, .card2 ul {
       flex-direction: column;
       align-items: center; } }
@@ -334,14 +351,21 @@ footer {
   .RollinG-h1 {
     font-size: 6rem; }
   .card, .card2 {
-    height: 53.25rem; }
+    width: 31.25rem;
+    height: 36.25rem; }
   .card2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 25.75rem;
     height: 900px;
-    text-align: center; } }
+    text-align: center; }
+  .card p, .card2 p {
+    padding: 0.1875rem;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    margin: 41px auto; } }
 
 @media (max-width: 425px) {
   .navbar li {
@@ -354,6 +378,15 @@ footer {
     font-size: 6rem; }
   .header-h1 {
     margin-bottom: 65px; }
+  .card, .card2 {
+    width: 21.25rem;
+    height: 42.25rem; }
+  .card p, .card2 p {
+    padding: 0.1875rem;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    margin: 41px auto; }
   .card2 {
     display: flex;
     flex-direction: column;
@@ -374,30 +407,17 @@ footer {
         height: fit-content;
     }*/
   .card, .card2 {
-    width: 6.25rem;
-    height: 40.25rem; }
-    .card ul, .card2 ul {
-      flex-direction: column;
-      align-items: center; }
-  .card2 {
-    display: flex;
+    width: 19.25rem;
+    height: 46.875rem; }
+  .card p, .card2 p {
+    padding: 0.1875rem;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    margin: 38px auto; }
+  ul {
     flex-direction: column;
-    align-items: center;
-    width: 15.75rem;
-    text-align: center; } }
-
-@media (max-width: 375px) {
-  .section-clases {
-    grid-template-columns: auto; }
-  /*.card {
-        height: fit-content;
-    }*/
-  .card, .card2 {
-    width: 6.25rem;
-    height: 40.25rem; }
-    .card ul, .card2 ul {
-      flex-direction: column;
-      align-items: center; }
+    align-items: center; }
   .card2 {
     display: flex;
     flex-direction: column;
@@ -446,7 +466,7 @@ footer {
     flex-wrap: wrap;
     margin-right: 20px; }
   .card, .card2 {
-    width: 18.75rem;
+    width: 16.75rem;
     height: fit-content; }
   .card p, .card2 p {
     text-align: center;

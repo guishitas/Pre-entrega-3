@@ -18,6 +18,13 @@
     .header-h1 {
         margin-bottom: 65px;
     }
+    .card p {
+        padding: 0.1875rem;
+        color: black;
+        font-size: 24px;
+        text-align: center;
+        margin: 43px auto;
+    }
 
     .card2 {
         display: flex;
@@ -46,7 +53,7 @@
 
     .card {
         width: 600px;
-        height: 45.25rem;
+        height: 38.25rem;
 
         ul {
             flex-direction: column;

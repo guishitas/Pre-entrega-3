@@ -8,14 +8,23 @@
         height: fit-content;
     }*/
     .card {
-        width: 6.25rem;
-        height: 40.25rem;
-
-        ul {
-            flex-direction: column;
-            align-items: center;
-        }
+        width: 19.25rem;
+        height: 46.875rem;
     }
+
+    .card p {
+        padding: 0.1875rem;
+        color: black;
+        font-size: 22px;
+        text-align: center;
+        margin: 38px auto;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
 
     .card2 {
         display: flex;

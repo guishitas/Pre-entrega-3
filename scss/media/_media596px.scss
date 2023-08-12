@@ -8,7 +8,8 @@
 
 }
 .card {
-    height: 53.25rem;
+    width: 31.25rem;
+    height: 36.25rem;
 }
 .card2 {
     display: flex;
@@ -17,5 +18,13 @@
     width: 25.75rem;
     height: 900px;
     text-align: center;
+}
+.card p {
+    padding: 0.1875rem;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    margin: 41px auto;
+
 }
 }

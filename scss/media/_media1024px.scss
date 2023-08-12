@@ -1,7 +1,15 @@
 @media(max-width:1024px) {
-    .header-h1{
+    .header-h1 {
         margin-bottom: 65px;
     }
+
+    .card {
+        margin: 30px auto;
+        width: 50%;
+        height: 35.25rem;
+        background-color: rgba(166, 108, 243, 0.65);
+    }
+
     .card2 {
         text-align: center;
         padding: 3.125rem 0rem;
@@ -13,6 +21,14 @@
         text-align: center;
         align-items: center;
         height: fit-content;
+    }
+
+    .card p {
+        padding: 0.1875rem;
+        color: black;
+        font-size: 24px;
+        text-align: center;
+        margin: 43px auto;
     }
 
     .productos {
@@ -31,15 +47,18 @@
         width: 220px;
         height: 230px;
     }
-    .class-img2{
+
+    .class-img2 {
         width: 220px;
         height: 230px;
     }
-    .class-img3{
+
+    .class-img3 {
         width: 220px;
         height: 230px;
     }
-    .class-img4{
+
+    .class-img4 {
         width: 220px;
         height: 230px;
     }
